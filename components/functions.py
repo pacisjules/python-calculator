@@ -74,12 +74,12 @@ def randomyearmarriage():
         this_year=int(now.year)
         result=random.randint(int(your_age), 44)
         year_for=int(result)-int(your_age)
-        print("Mr "+name+" you can get marriage on "+str(result)+" year old in "+str(int(year_for)+int(this_year))+" Year remain "+str(year_for)+" years")
+        print(Fore.LIGHTMAGENTA_EX+"Mr "+name+" you can get marriage on "+str(result)+" year old in "+str(int(year_for)+int(this_year))+" Year remain "+str(year_for)+" years")
     if your_agenda=="F":
         this_year=int(now.year)
         
         result=random.randint(int(your_age), 38)
         year_for=int(result)-int(your_age)
-        print("\nMiss "+name+" you can get marriage on "+str(result)+" year old in "+str(int(year_for)+int(this_year))+" Year remain "+str(year_for)+" years")
+        print(Fore.LIGHTMAGENTA_EX+"\nMiss "+name+" you can get marriage on "+str(result)+" year old in "+str(int(year_for)+int(this_year))+" Year remain "+str(year_for)+" years")
 
 #randomyearmarriage()
