@@ -3,7 +3,6 @@ System that can calculate much functions in python
 
 * Engeneer calculator
 * Born year calculator
-* Years calculator
 * Random year for your marriage
 * Large format square meter accounting
 * Multiple table search
